@@ -1,2 +1,2 @@
 # ritch-text-editor
-A react + slate ritch text editor
+A react + draft.js ritch text editor
