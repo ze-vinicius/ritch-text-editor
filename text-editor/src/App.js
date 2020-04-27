@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
         <h1>Editor de texto</h1>
+        <p> Esse é o editor de texto do Vinícius, feito usando React js e a biblioteca Draft js</p>
         <TextEditor/>
     </div>
   );

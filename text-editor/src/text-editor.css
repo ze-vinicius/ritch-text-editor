@@ -1,0 +1,73 @@
+/* const styles = {
+    root: {
+        width: '600px',
+        margin: 'auto',
+        boxShadow: '0 0 2px rgba(0, 0, 0, 0.2)',
+        padding: '20px'
+    },
+    toolbar: {
+        width: '100%'
+    },
+    btnToolbar: {
+        background: '#fff',
+        border: 'none',
+        fontSize: '1.2rem',
+        padding: '5px',
+        fontFamilly: 'Times'
+    },
+    'btnToolbar:hover': {
+        border: '1px solid black'
+    },
+    editor: {
+        cursor: 'text',
+        border: '1px solid #ccc',
+        height: '300px',
+        padding: '10px'
+    },
+    button: {
+        width: '50%',
+        background: '#ccc',
+        border: 'none',
+        color: '#fff',
+        padding: '10px',
+        fontWeight: 'bold',
+        marginTop: '10px'
+    }
+} */
+
+.root {
+    width: 600px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.12);
+    margin: auto;
+    padding: 20px;
+}
+
+.editor {
+    border: 1px solid #ccc;
+    height: 300px;
+    cursor: text;
+    padding: 5px;
+    text-align: left;
+}
+
+.btn-submit {
+    width: 50%;
+    background: #999;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.btn-toolbar {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.btn-toolbar:focus {
+    outline: 0;
+}
